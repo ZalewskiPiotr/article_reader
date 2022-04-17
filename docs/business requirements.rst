@@ -1,7 +1,10 @@
-WERSJA 5.0 - w trakcie
+Zakończono rozwijanie projektu na wersji 5.0 w dniu 17.04.2022
+--------------------------------------------------------------
+
+WERSJA 5.0 - zakończona.
 ----------------------
-- jeżeli pojawiły się nowe artykuły to wyślij informację o nich na maila
-- dodać konfigurację w pliku config.ini
+- (OK) jeżeli pojawiły się nowe artykuły to wyślij informację o nich na maila
+- (ZREZYGNOWANO) dodać konfigurację w pliku config.ini
 
 WERSJA 4.0 - zakończona
 ----------------------
