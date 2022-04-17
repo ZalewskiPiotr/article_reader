@@ -247,8 +247,10 @@ def main():
             if content:
                 articles = get_articles(html=content)
                 added_articles = xml_helper.xml_save_articles(articles, xml_file_path)
-                if added_articles:
-                    send_email()
+                # przetestowałem wysyłanie poczty. Na razie je usuwam, aby nie trzymać na Githubie danych logowania do
+                # konta
+                # if added_articles:
+                #     send_email()
                 print(f"Dodano {added_articles} nowych artykułów.\nDziałanie programu zakończone.")
             else:
                 print(f"Błąd ładowania strony www !!! Zajrzyj do pliku logu: {logger_file_path} !!!")
